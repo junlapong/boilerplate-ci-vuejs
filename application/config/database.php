@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
+	'hostname' => '127.0.0.1:3306',
 	'username' => 'root',
 	'password' => '',
-	'database' => 'boilerplate-ci-vuejs',
+	'database' => 'ci_vuejs',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
